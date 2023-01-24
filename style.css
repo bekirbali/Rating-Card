@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lGrey: hsl(217, 12%, 63%);
+  --mGrey: hsl(216, 12%, 54%);
+  --dBlue: hsl(213, 19%, 18%);
+  --vdBlue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
+  --btnBgc: hsl(213, 19%, 27%);
+
+  --textC: rgba(255, 255, 255, 0.486);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  color: var(--white);
+}
+
+body {
+  background-color: var(--vdBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: var(--dBlue);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 30%;
+}
+
+.star i {
+  color: var(--orange);
+  margin-bottom: 1rem;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 27%);
+  padding: 0.5rem;
+}
+
+.text p {
+  color: rgba(255, 255, 255, 0.486);
+  padding-right: 1rem;
+}
+
+.rating {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btnBgc);
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: rgba(255, 255, 255, 0.486);
+  transition: ease-in-out 0.2s;
+}
+
+.one:hover {
+  background-color: var(--textC);
+  color: white;
+  cursor: pointer;
+}
+
+.one:active {
+  transition: ease-in-out 0.1s;
+  background-color: var(--orange);
+}
+
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btnBgc);
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: rgba(255, 255, 255, 0.486);
+  transition: ease-in-out 0.2s;
+}
+
+.two:hover {
+  background-color: var(--textC);
+  color: white;
+  cursor: pointer;
+}
+
+.two:active {
+  transition: ease-in-out 0.1s;
+  background-color: var(--orange);
+}
+
+.three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btnBgc);
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: rgba(255, 255, 255, 0.486);
+  transition: ease-in-out 0.2s;
+}
+
+.three:hover {
+  background-color: var(--textC);
+  color: white;
+  cursor: pointer;
+}
+
+.three:active {
+  transition: ease-in-out 0.1s;
+  background-color: var(--orange);
+}
+
+.four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btnBgc);
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: rgba(255, 255, 255, 0.486);
+  transition: ease-in-out 0.2s;
+}
+
+.four:hover {
+  background-color: var(--textC);
+  color: white;
+  cursor: pointer;
+}
+
+.four:active {
+  transition: ease-in-out 0.1s;
+  background-color: var(--orange);
+}
+
+.five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--btnBgc);
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  color: rgba(255, 255, 255, 0.486);
+  transition: ease-in-out 0.3s;
+}
+
+.five:hover {
+  background-color: var(--textC);
+  color: white;
+  cursor: pointer;
+}
+
+.five:active {
+  transition: ease-in-out 0.1s;
+  background-color: var(--orange);
+}
+
+.submit-btn-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submit-btn {
+  text-align: center;
+  margin-top: 2rem;
+  width: 80%;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+  background-color: var(--orange);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit-btn:hover {
+  transition: ease-in-out 0.3s;
+  background-color: var(--white);
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.clear-btn {
+  text-align: center;
+  margin-top: 1rem;
+  width: 30%;
+  height: 1rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+  background: none;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.clear-btn:hover {
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  color: var(--orange);
+}
+
+body .modal-container {
+  display: none;
+}
+
+body .modal-container.show {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4rem;
+}
+
+body .modal-container .modal {
+  background-color: var(--dBlue);
+  text-align: center;
+  padding: 1.9rem 3.1rem;
+  box-shadow: 0 0 4px 4px rgba(221, 221, 221, 0.555);
+  border-radius: 0.8rem;
+  width: 500px;
+  max-width: 100%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+body .modal-container .modal img {
+  width: 30%;
+}
+
+body .modal-container .modal .thanks p {
+  font-size: 1rem;
+  color: var(--textC);
+  font-weight: 400;
+}
+
+body .modal-container .modal button {
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--orange);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 0.4rem 3.1rem;
+  margin-top: 1.4rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+/* body .modal-container .modal button:hover {
+    background-color: var(--white);
+    color: var(--orange);
+} */
+
+body .modal-container .modal button:hover {
+  transition: all 0.5s ease-in-out;
+  transform: translate(3px, 0);
+  color: var(--orange);
+  background-color: var(--white);
+  border: none;
+}
+
+p.rating-select {
+  width: 50%;
+  border-radius: 1rem;
+  color: var(--orange);
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  background-color: var(--btnBgc);
+}
+
+.active-rate {
+  background-color: var(--orange);
+  color: var(--white);
+}

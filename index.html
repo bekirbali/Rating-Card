@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rating Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="star"><i class="fa-solid fa-star"></i></div>
+      <div class="text">
+        <h2>How did we do?</h2>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+      </div>
+      <div class="general-rating">
+        <div class="rating">
+          <div class="btn one">1</div>
+          <div class="btn two">2</div>
+          <div class="btn three">3</div>
+          <div class="btn four">4</div>
+          <div class="btn five">5</div>
+        </div>
+        <div class="submit-btn-div">
+          <button type="submit" class="submit-btn">SUBMIT</button>
+          <button type="submit" class="clear-btn">Clear Choice</button>
+        </div>
+      </div>
+
+      <div class="modal-container">
+        <div class="modal">
+          <img src="./images/okay.jpg" alt="okay" />
+          <div class="thanks">
+            <h2>Thank you!</h2>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don't hesitate to get in touch!
+            </p>
+          </div>
+          <button id="modal-ok">Close</button>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
