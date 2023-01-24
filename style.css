@@ -322,56 +322,141 @@ p.rating-select {
   }
   .container {
     padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+  }
+  .text p {
+    padding: 0;
   }
   .one {
     height: 1.3rem;
     width: 1.3rem;
   }
-  .one:active {
-    background-color: var(--textC);
+  .one:hover {
+    background-color: var(--orange);
     color: white;
   }
   .two {
     height: 1.3rem;
     width: 1.3rem;
   }
-  .two:active {
-    background-color: var(--textC);
+  .two:hover {
+    background-color: var(--orange);
     color: white;
   }
   .three {
     height: 1.3rem;
     width: 1.3rem;
   }
-  .three:active {
-    background-color: var(--textC);
+  .three:hover {
+    background-color: var(--orange);
     color: white;
   }
   .four {
     height: 1.3rem;
     width: 1.3rem;
   }
-  .four:active {
-    background-color: var(--textC);
+  .four:hover {
+    background-color: var(--orange);
     color: white;
   }
   .five {
     height: 1.3rem;
     width: 1.3rem;
   }
-  .five:active {
-    background-color: var(--textC);
+  .five:hover {
+    background-color: var(--orange);
     color: white;
   }
 }
 
 @media (max-width: 1100px) {
   .container {
+    display: flex;
     padding: 1rem;
     width: 40%;
+    align-items: center;
+    text-align: center;
+  }
+  .text {
+    padding: 1rem;
+    text-align: center;
   }
   .rating {
     justify-content: center;
     gap: 0.5rem;
+  }
+
+  .one:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+
+  .two:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+
+  .three:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+
+  .four:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+
+  .five:hover {
+    background-color: var(--orange);
+    color: white;
+  }
+}
+
+@media (max-width: 490px) {
+  .one {
+    height: 0.51rem;
+    width: 0.51rem;
+  }
+
+  .two {
+    height: 0.51rem;
+
+    width: 0.51rem;
+  }
+
+  .three {
+    height: 0.51rem;
+
+    width: 0.51rem;
+  }
+
+  .four {
+    height: 0.51rem;
+
+    width: 0.51rem;
+  }
+
+  .five {
+    height: 0.51rem;
+
+    width: 0.51rem;
+  }
+
+  .general-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .submit-btn-div {
+    width: 70%;
+    align-items: center;
+  }
+  .submit-btn {
+    padding: 0.2rem;
   }
 }
