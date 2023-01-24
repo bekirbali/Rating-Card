@@ -327,21 +327,41 @@ p.rating-select {
     height: 1.3rem;
     width: 1.3rem;
   }
+  .one:active {
+    background-color: var(--textC);
+    color: white;
+  }
   .two {
     height: 1.3rem;
     width: 1.3rem;
+  }
+  .two:active {
+    background-color: var(--textC);
+    color: white;
   }
   .three {
     height: 1.3rem;
     width: 1.3rem;
   }
+  .three:active {
+    background-color: var(--textC);
+    color: white;
+  }
   .four {
     height: 1.3rem;
     width: 1.3rem;
   }
+  .four:active {
+    background-color: var(--textC);
+    color: white;
+  }
   .five {
     height: 1.3rem;
     width: 1.3rem;
+  }
+  .five:active {
+    background-color: var(--textC);
+    color: white;
   }
 }
 
