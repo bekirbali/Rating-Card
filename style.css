@@ -312,3 +312,46 @@ p.rating-select {
   background-color: var(--orange);
   color: var(--white);
 }
+
+@media (max-width: 648px) {
+  html {
+    font-size: 14px;
+  }
+  body {
+    text-align: center;
+  }
+  .container {
+    padding: 0.5rem;
+  }
+  .one {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+  .two {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+  .three {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+  .four {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+  .five {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    padding: 1rem;
+    width: 40%;
+  }
+  .rating {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
